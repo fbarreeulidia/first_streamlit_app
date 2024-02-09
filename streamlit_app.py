@@ -12,5 +12,5 @@ st.text('🐔 Hard-Boiled Free-Range Egg')
 
 st.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
+st.multiselect("Pick some fruits:", list(my_fruit_list.index), ['Avocado', 'Strawberries'])
 st.dataframe(my_fruit_list)
-st.multiselect("Pick some fruits:", list(my_fruit_list.index))
