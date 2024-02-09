@@ -13,4 +13,4 @@ st.text('🐔 Hard-Boiled Free-Range Egg')
 st.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 st.dataframe(my_fruit_list)
-streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
+st.multiselect("Pick some fruits:", list(my_fruit_list.index))
