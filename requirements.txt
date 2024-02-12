@@ -1,1 +1,1 @@
-snowflake-connector-python
+snowflake-connector-python==3.6.0
